@@ -3,10 +3,10 @@ message: "If you use this software, please cite it as below."
 authors:
   - family-names: Grøntved
     given-names: Kasper A. R.
-    - family-names: Joe
-    given-names: Christensen
-    - family-names: Anders L.
-    given-names: Johnson
+  - family-names:  Lundquist
+    given-names: Ulrik P. S.
+  - family-names: Christensen
+    given-names: Anders L.
 title: kasperg3/CoverageTasks: Initial release
 version: v0.0
 date-released: 2023-02-28
