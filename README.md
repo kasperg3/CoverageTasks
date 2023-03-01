@@ -1,9 +1,7 @@
 <h1 align="center">Area Coverage task dataset for multi-robot task allocation 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
-  <a href=" " target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
+  <a href="https://zenodo.org/badge/latestdoi/606742253"><img src="https://zenodo.org/badge/606742253.svg" alt="DOI"></a>
   <a href="https://github.com/kefranabg/readme-md-generator/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
@@ -13,7 +11,6 @@
   <!-- <a href=" " target="_blank">
     <img alt="Build" src="https://github.com/kasperg3/swarm-simulator/actions/workflows/build.yml/badge.svg" />
   </a> -->
-  
 </p>
 
 ![AC300 task example](https://github.com/kasperg3/CoverageTasks/blob/498c7cf2e65521f9a4e9524781397434f7d96bd5/.assets/AC300AC70008tasks.png)
