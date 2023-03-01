@@ -16,7 +16,7 @@
   
 </p>
 
-![AC300 task example](https://github.com/kasperg3/swarm-simulator-ros/blob/main/.assets/AC300AC70008tasks.png)
+![AC300 task example](https://github.com/kasperg3/CoverageTasks/blob/498c7cf2e65521f9a4e9524781397434f7d96bd5/.assets/AC300AC70008tasks.png)
 
 # Coverage task dataset
 This repository contains the collection of dataset for the area coverage problem. Each problem is contained within a single json file to easily import it into your favorite programming language. 
