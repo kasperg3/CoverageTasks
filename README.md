@@ -20,6 +20,15 @@ This repository contains the collection of dataset for the area coverage problem
 
 The problems contains a bounding polygon representing the coverage area, a set of holes represented as a list of coordinates, and all problems contains predefined coverage tasks generated using existing routes from https://github.com/UNCCharlotte-CS-Robotics/AreaCoverage-dataset. 
 
+## The format
+The json file is structured as follows:
+```
+Polygon: [Vertex, ...]
+Holes: [Hole, ...]
+Tasks: [Task, ...]
+```
+
+
 ## The datasets
 
 * VM25 - I. Vandermeulen, R. Groß, and A. Kolling, “Turn-minimizing multirobot coverage,” IEEE International Conference on Robotics and Automation (ICRA), 2019, pp. 1014–1020.
