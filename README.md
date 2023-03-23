@@ -1,7 +1,7 @@
 <h1 align="center">Area Coverage task dataset for multi-robot task allocation 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
-  <a href="https://zenodo.org/badge/latestdoi/606742253"><img src="https://zenodo.org/badge/606742253.svg" alt="DOI"></a>
+  <a href="https://doi.org/10.5281/zenodo.7763104"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7763104.svg" alt="DOI"></a>
   <a href="https://github.com/kefranabg/readme-md-generator/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
