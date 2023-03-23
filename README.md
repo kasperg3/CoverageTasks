@@ -20,20 +20,30 @@ This repository contains the collection of dataset for the area coverage problem
 
 The problems contains a bounding polygon representing the coverage area, a set of holes represented as a list of coordinates, and all problems contains predefined coverage tasks generated using existing routes from https://github.com/UNCCharlotte-CS-Robotics/AreaCoverage-dataset. 
 
-## The format
-The json file is structured as follows:
-```
-Polygon: [Vertex, ...]
-Holes: [Hole, ...]
-Tasks: [Task, ...]
-```
-
-
 ## The datasets
-
+The datasets are generated from existing problems datasets provided by: 
 * VM25 - I. Vandermeulen, R. Groß, and A. Kolling, “Turn-minimizing multirobot coverage,” IEEE International Conference on Robotics and Automation (ICRA), 2019, pp. 1014–1020.
 * AC300 - https://github.com/ethz-asl/polygon_coverage_planning
 * H2 - W. H. Huang, “Optimal line-sweep-based decompositions for coverage algorithms,” IEEE International Conference on Robotics and Automation (ICRA), 2001
+
+### The format
+The format of the datasets provided in this repository is following the [RFC-7946](https://www.rfc-editor.org/rfc/rfc7946) standard called GeoJSON. GeoJson is a videly used geospatial data interchange format based on the json format. It defines several types of JSON objects and
+the manner in which they are combined to represent data about
+geographic features, their properties, and their spatial extents.
+
+All the coverage problems are defined as a FeatureCollection and contains Features such as a boundary (Polygon), a list of coverage tasks (MultiLineString), and can contain obstacles defines as a set of polygons (MultiPolygon).
+
+
+## Using the Datasets
+Using python to load a json file with the geojson format can be done as follows: 
+```python
+import geojson
+with open(path_to_file) as f:
+    gj = geojson.load(f)
+features = gj['features']
+```
+
+
 
 # Author
 
