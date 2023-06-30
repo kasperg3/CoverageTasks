@@ -18,7 +18,7 @@
 # Coverage task dataset
 This repository contains the collection of dataset for the area coverage problem. Each problem is contained within a single json file to easily import it into your favorite programming language. 
 
-The problems contains a bounding polygon representing the coverage area, a set of holes represented as a list of coordinates, and all problems contains predefined coverage tasks generated using existing routes from https://github.com/UNCCharlotte-CS-Robotics/AreaCoverage-dataset. 
+The problems contains a bounding polygon representing the coverage area, a set of holes represented as a list of coordinates, and all problems contains predefined coverage tasks generated using existing routes from https://github.com/UNCCharlotte-CS-Robotics/AreaCoverage-dataset. The coverage tasks are generated based on the polygons and a sweep-width of 3 meters, using the method from https://github.com/UNCCharlotte-CS-Robotics/AreaCoverage-library.  
 
 ## The datasets
 The datasets are generated from existing problems datasets provided by: 
