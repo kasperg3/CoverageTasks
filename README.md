@@ -15,6 +15,17 @@
 
 ![AC300 task example](https://github.com/kasperg3/CoverageTasks/blob/498c7cf2e65521f9a4e9524781397434f7d96bd5/.assets/AC300AC70008tasks.png)
 
+# Citing
+If you are in any way using the dataset, please cite this paper: 
+```
+@inproceedings{grontved2022icar,
+  title={Decentralized Multi-UAV Trajectory Task Allocation in Search and Rescue Applications},
+  author={Gr{\o}ntved, Kasper Andreas R{\o}mer and  Schultz, Ulrik Pagh and Christensen, Anders Lyhne},
+  booktitle={21st International Conference on Advanced Robotics},
+  year={2023},
+  organization={IEEE}
+}
+```
 # Coverage task dataset
 This repository contains the collection of dataset for the area coverage problem. Each problem is contained within a single json file to easily import it into your favorite programming language. 
 
@@ -42,7 +53,6 @@ with open(path_to_file) as f:
     gj = geojson.load(f)
 features = gj['features']
 ```
-
 
 
 # Author
